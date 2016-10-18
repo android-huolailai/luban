@@ -1,5 +1,5 @@
 # luban
-图片裁剪
+图片压缩
 
         Luban.get(this)
                 .load(file)                     //传人要压缩的图片
