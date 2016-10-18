@@ -8,17 +8,14 @@
 
                     @Override
                     public void onStart() {
-                        Log.i("TIME",System.currentTimeMillis()+"");
+                      
                         //TODO 压缩开始前调用，可以在方法内启动 loading UI
 
                     }
                     @Override
                     public void onSuccess(File file) {
                         //TODO 压缩成功后调用，返回压缩后的图片文件
-                        Log.i("iiiii",file.toString());
-
-                        Log.i("TIME",System.currentTimeMillis()+"");
-
+                 
                        imageView.setImageBitmap(BitmapFactory.decodeFile(file.getAbsolutePath()));
 
 
